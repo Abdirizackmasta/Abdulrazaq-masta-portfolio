@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="icon" href="favicon.ico" />
+    <title>my portofolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo"><span>A</span>M.</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portofolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>front-end web developer</p>
+          <h1>Hi, i'm <span>Abul-razaq masta</span> <br />from kenya</h1>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-social-icons">
+      <a href="https://www.facebook.com/abdirizack.issacksiyat?mibextid=LQQJ4d"
+        ><i class="fab fa-facebook"></i
+      ></a>
+      <a href="http://www.twitter.com/mastaboy006"
+        ><i class="fab fa-twitter-square"></i
+      ></a>
+      <a href="http://www.instagram.com/abdulrazaq_masta"
+        ><i class="fab fa-instagram-square"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/abdirizack-issack-siyat-0a51451b2"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a href="http://wa.me/+254718880089"
+        ><i class="fab fa-whatsapp-square"></i
+      ></a>
+      <a href="https://github.com/Abdirizackmasta"
+        ><i class="fab fa-github-square"></i
+      ></a>
+    </div>
+    <!-- ------about------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="profile.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              welcome to Masta's webste.An innovative Front End Developer with
+              experience in building and maintaining responsive websites in the
+              recruiting industry and with an ambition to learn and explore new
+              ideas . Proficient in HTML, CSS, Bootstrap, JavaScript and React;
+              plus modern libraries and frameworks. Passionate about usability
+              and possess working knowledge of Adobe Photoshop & Sketch
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing web/App interface</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>Editing</span><br />Video/photo editing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>May 2022 - present</span><br />Web Lead Google Developer Student Club(GDSC), Umma University.
+                </li>
+                <li>
+                  <span>May 2022-present</span><br />Freelancer website
+                  developer at Upwork
+                </li>
+                <li>
+                  <span>2021-present</span><br />Held weekly sessions to teach
+                  newbies fundamentals of web development and mentor them
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2006 – 2013   ~ Hulugho primary school</span> Went to Hulugho primary school and attained a certificate in primary education i.e Kenya Certificate of Primary Education. </li>
+                <li><span>2014 – 2017 ~ county high secondary school </span> > went to County high secondary school (a provisional level high school) and attained my secondary education certificate i.e Kenya Certificate of  Secondary Education.</li>
+                <li>
+                  <span>2022</span><br />Completed an online front-end course by
+                  Jonnas Schmedtmann of Udemy
+                </li>
+                <li><span>2020 – 2023 ~ umma university  </span> went to Samaha school of technologies and learnt  the knowledge of programming and web development (frontend development).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------servicecs------ -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web Design</h2>
+            <p>
+              Am an experienced developer who designed over 50 responsive
+              websites and the response i got from the clients are nothing but
+              positive ones.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              beautiful UI is a fundamental tool to attract clients. Am here to
+              help you design a more attractive UIs.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-alt"></i>
+            <h2>photo/Video Editing</h2>
+            <p>Am an experienced video editor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="programing-languages">
+      <h1>programing languages</h1>
+      <div class="languages">
+        <div>
+          <ul>
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              HTML
+            </li>
+            <li>
+              <i class="fa-brands fa-css3-alt"></i>
+              CSS
+            </li>
+            <li>
+              <i class="fa-brands fa-js"></i>
+              JavaScript
+            </li>
+            <li>
+              <i class="fa-brands fa-react"></i>
+              React
+            </li>
+            <li>
+              <i class="fa-brands fa-bootstrap"></i>
+              Bootstrap
+            </li>
+            <li>
+              <i class="fa-brands fa-sass"></i>
+              SASS
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>100%</li>
+            <li>95%</li>
+            <li>80%</li>
+            <li>70%</li>
+            <li>70%</li>
+            <li>80%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- -------portofolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="quote wallpaper.png" alt="" />
+            <div class="layer">
+              <h3>Quote generating app</h3>
+              <p>
+                below is a quote generating site that was designed by me. click
+                the link below to see and interact with it.
+              </p>
+              <a href="https://abdirizackmasta.github.io/quote-generating/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="calculator wallpaper.png" alt="" />
+            <div class="layer">
+              <h3>calculator App</h3>
+              <p>
+                This is a simple calculator which will help you evaluate simple
+                mathematic expressions. click the link below to see it.
+              </p>
+              <a href="https://abdirizackmasta.github.io/calculator/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="clock wallpaper.png" alt="" />
+            <div class="layer">
+              <h3>Digital clock</h3>
+              <p>
+                this is a simple digital clock designed using html,css and js.
+                click the link below to see it.
+              </p>
+              <a href="clock/index.html"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="ludo wallpaper.png" alt="" />
+            <div class="layer">
+              <h3>Simple Ludo Game</h3>
+              <p>
+                this is a simple ludo game that i have bulit using html,css and
+                javaScript
+              </p>
+              <a href="https://abdirizackmasta.github.io/a-ludo-game/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="bank app wallpaper.png" alt="" />
+            <div class="layer">
+              <h3>Banking app</h3>
+              <p>
+                this is a demo bank app that i have built with the help of my
+                tutor.<br />
+                use shortstand "ai" as a username and "1111" as a password to
+                login to account1 and interact witht the app.
+                <br />
+                use shortstand "fm" as a username and "2222" as a password to
+                login to account2 and interact witht the app.
+              </p>
+              <a href="https://abdirizackmasta.github.io/bank-app/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="bankist wallpaper.png" alt="" />
+            <div class="layer">
+              <h3>bank website</h3>
+              <p>
+                This is a simple bank website built using HTML,CSS and
+                javaScript. click in the link to see it
+              </p>
+              <a href="https://abdirizackmasta.github.io/a-bank-website/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------contact------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>
+              <a href="email: abdirizackissack2018@gmail.com"
+                ><i class="fa fa-envelope"></i>abdrizackissack2018@gmail.com</a
+              >
+            </p>
+
+            <p>
+              <a href="tel: +254719455494"><i class="fas fa-phone-square-alt"></i>+254719455494</a>
+            </p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/abdirizack.issacksiyat?mibextid=LQQJ4d"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="http://www.twitter.com/mastaboy006"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a href="http://www.instagram.com/abdulrazaq_masta"
+                ><i class="fab fa-instagram-square"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/abdirizack-issack-siyat-0a51451b2"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="http://wa.me/+254718880089"
+                ><i class="fab fa-whatsapp-square"></i
+              ></a>
+              <a href="https://github.com/Abdirizackmasta"
+                ><i class="fab fa-github-square"></i
+              ></a>
+            </div>
+            <a href="MASTA CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form
+              action="https://formsubmit.co/abdirizackissack2018@gmail.com"
+              method="POST"
+            >
+              <input type="text" name="Name" placeholder="Your Name" />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                id="email"
+              />
+              <input
+                type="number"
+                name="Phone Number"
+                placeholder="Your Phone Number"
+                id="number"
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                id="message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright &copy; Masta <i class="fas fa-computer"></i>. Designed by
+        Abdulrazaq-masta
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
